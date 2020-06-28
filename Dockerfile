@@ -1,5 +1,4 @@
 FROM centos:latest
-
 RUN yum install sudo -y
 RUN yum install vim -y
 RUN yum install /sbin/service -y
